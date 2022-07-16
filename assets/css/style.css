@@ -1,0 +1,126 @@
+.cont-general{
+
+    display: grid;
+    grid-template-areas: "cont-titulo" "cont-nueva-tarea" "cont-general-tareas";
+    grid-template-rows: 20vh 17vh 50vh;
+    justify-content: center;
+    background-color: #F8F8FF;
+    
+}
+
+.cont-titulo{
+
+    grid-area: cont-titulo;
+    display: flex;
+    justify-content: center;
+    color: #1f5737;
+    font-size: xx-large;
+    width: 100%;
+}
+
+.cont-nueva-tarea{
+
+    grid-area: cont-nueva-tarea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.form-label{
+
+    color: #1f5737;
+    font-size: medium;
+    width: 100%;
+    text-align: center;
+}
+
+.cont-agg-productos{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form-input-prod{
+
+    color: #1f5737;
+    font-size: medium;
+    width: 40vh;
+    height: 4vh;
+    border-radius: 1vh;
+    border: solid black 1px;
+    margin: 1vh 0 1vh 0;
+
+}
+
+.form-button{
+
+    color: #1f5737;
+    background-color: #abfdcf;
+    font-size: small;
+    border: solid black 1px;
+    width: 25vh;
+    height: 6vh;
+    border-radius: 1vh; 
+
+}
+.cont-general-producto{
+
+    grid-area: cont-general-tareas;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-lista-producto{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cont-label{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.form-label-producto{
+
+    color: #1f5737;
+    font-size: medium;
+    width: 40vh;
+    height: 4vh;
+    text-align: center;
+
+}
+
+.formato-lista{
+
+    list-style-type: none;
+    display: inline;
+}
+
+.form-borrar{
+
+    width: 4vh;
+    height: 4vh;
+    color: red;
+    background-color: #abfdcf;
+    font-size: medium;
+    border: solid black 1px;
+    border-radius: 1vh;
+}
+
+.form-check{
+
+    width: 4vh;
+    height: 4vh;
+    color: green;
+    background-color: #abfdcf;
+    border: solid black 1px;
+    border-radius: 1vh;
+}
